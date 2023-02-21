@@ -1,0 +1,21 @@
+.container{
+  width: 40rem;
+  margin: 7rem auto auto auto;
+  text-align: center;
+}
+
+.h2{
+  font-size: 3rem;
+  font-family: cursive;
+}
+
+.p{
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+}
+
+.img{
+  border-radius: 10px;
+  height: 23rem;
+  width: 42rem;
+}

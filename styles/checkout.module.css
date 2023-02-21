@@ -1,0 +1,116 @@
+.container{
+  margin: 7rem auto;
+  width: 65rem;
+}
+
+.h1{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.h2{
+  font-size: 1.3rem;
+  font-weight: 450;
+  font-family: sans-serif;
+  margin-bottom: 0.7rem;
+}
+.form{
+ margin-left: 2.5rem;
+
+}
+.name{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.email{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.address{
+  width: 20rem;
+  margin-right: 52rem;
+  border: 0.001px solid black;
+}
+.phone{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.city{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.state{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.pincode{
+  width: 20rem;
+  border: 0.001px solid black;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+/* sidecart*/
+
+.sidecart{
+  background-color: #e9f3f0;
+  padding: 5rem 5rem 2rem 5rem;
+  border-radius: 3px;
+  width: 30rem;
+  margin-left: 2rem;
+}
+.items{
+  list-style: normal;
+  margin-left: -40px;
+  margin-top: -3.5rem;
+}
+.empty{
+  font-size: 1.1rem;
+}
+.li{
+  flex-direction: row;
+}
+.cartname{
+  margin: 3px 0;
+  max-width: 9rem;
+}
+.plus{
+  position: absolute;
+  margin: 9px 0 0 162px;
+  cursor: pointer;
+}
+.number{
+  position: absolute;
+  margin: 5px 5px 0px 182px;
+}
+.minus{
+  position: absolute;
+  margin: 9px 0 0 204px;
+  cursor: pointer;
+}
+.subtotal{
+  font-size: 1.2rem;
+  margin: 1rem 0 0 -3rem;
+  font-weight: 500;
+}
+.buynow{
+  margin: 0.5rem 0 0 3.5rem;
+  background-color: red;
+  color: white;
+  padding: 3px 10px;
+  font-weight: 600;
+  border-radius: 4px;
+  font-family: cursive;
+}
+.buynow:hover{
+  color:black
+}

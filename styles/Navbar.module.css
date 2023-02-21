@@ -1,0 +1,236 @@
+.container{
+  position: fixed;
+  top: 0%;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 3rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-items: center;
+  box-sizing: border-box;
+  background-color: rgb(201, 219, 219);
+}
+
+
+/*logo section*/
+.content{
+  margin-top: 0.2rem;
+  margin-left: -40px;
+}
+  
+.img{
+}
+
+.h1{
+  font-family: cursive;
+  margin-left: -52px;
+  margin-top: -8px;
+  font-size: 1.9rem;
+}
+.h1:hover{
+  text-decoration: underline;
+}
+
+/*login section*/
+.loginsignup{
+  display: flex;
+  margin-top: 2rem;
+  text-align: right;
+  margin-right: -10rem;
+  font-size: 1.2rem;
+}
+
+.cart{
+  cursor: pointer;
+  margin-right: -60px;
+}
+.cart:hover{
+  color: rgb(63, 63, 50) ;
+}
+.signup{
+  margin: 0 10px;
+}
+.signup:hover{
+  text-decoration: underline;
+}
+.login{
+  margin: 0 10px;
+}
+.login:hover{
+  text-decoration: underline;
+}
+
+/*link(navbar) section*/
+
+.nav{
+  margin-top: 1.5rem;
+}
+.a{
+  text-align: center;
+  font-family: emoji;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 20px 40px 0 40px;
+}
+
+.a:hover{
+  background-color: rgb(184, 167, 167);
+  border-radius: 5px;
+}
+
+/* sidecart */
+.sidecart{
+  display: none;
+  position: absolute;
+  top:0;
+  right:0;
+  background-color: #e9f3f0;
+  padding: 5rem;
+  border-radius: 3px;
+  height: 100vh;
+  animation: fade ease-in-out 10s;
+}
+.h1sidecart{
+  font-size: 1.3rem;
+  font-family: inherit;
+  text-decoration: underline;
+  font-weight: 500.99;
+  margin: -55px 0 24px 0;
+}
+.close{
+  position: absolute;
+  top: 5px;
+  right: 2px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.items{
+  list-style: normal;
+  margin-left: -40px;
+}
+.empty{
+  font-size: 0.9rem;
+  margin: 1rem 0 -1rem 1rem;
+}
+.li{
+  flex-direction: row;
+}
+.name{
+  margin: 8px 0 0 0;
+  max-width: 9rem;
+}
+.plusminus{
+  margin-left: -7rem;
+}
+.plus{
+  position: absolute;
+  margin: 8px 0 0 162px;
+  cursor: pointer;
+}
+.number{
+  position: absolute;
+  margin: 4px 5px 0px 182px;
+}
+.minus{
+  position: absolute;
+  margin: 8px 0 0 204px;
+  cursor: pointer;
+}
+.subtotal{
+  font-size: 1.2rem;
+  margin: 1rem 0 0 -1.1rem;
+  font-weight: 500;
+}
+.checkout{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  font-weight: 600;
+  border-radius: 4px;
+  bottom: 14px;
+  font-family: cursive;
+}
+.checkout:hover{
+  color:black
+}
+.clearcart{
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  font-weight: 600;
+  border-radius: 4px;
+  bottom: 14px;
+  font-family: cursive;
+  right: 65px;
+}
+.clearcart:hover{
+  color:black
+}
+
+@media only screen and (max-width: 800px) {
+  .container{
+    display: grid;
+   grid-template-columns: auto auto auto;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-items: center;
+    box-sizing: border-box;
+    background-color: rgb(201, 219, 219);
+  }
+  /*logo section*/
+.content{    
+  margin-left: -8px;
+  margin-top: 5px;}
+  
+.img{
+  margin-left: 5px;
+}
+
+.h1{
+  font-family: cursive;
+  margin-left: -19px;
+  margin-top: -8px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/*link(navbar) section*/
+
+.nav{
+  margin-top: 1rem;
+  margin-left: -6rem;
+}
+.a{
+  text-align: center;
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: 549;
+  cursor: pointer;
+  margin: -2px -24px 0 32px;
+}
+
+.a:hover{
+  background-color: rgb(184, 167, 167);
+  border-radius: 5px;
+}
+
+/*login section*/
+.login{
+  text-align: right;
+  margin-right: -1rem;
+}
+
+.cart{
+  margin-right: -3rem;
+  font-size: 0.9rem;
+}
+.signup{
+  margin: 1px -13px 0px 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+}

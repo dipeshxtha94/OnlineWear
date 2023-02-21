@@ -1,0 +1,58 @@
+.container{
+  width: 50rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 9rem auto auto auto;
+}
+
+.section1{
+  margin-top: 1.4rem;
+}
+
+.onlinewear{
+  margin-left: 0.1rem;
+  font-size: 0.8rem;
+  font-family: Calibri;
+}
+
+.orderid{
+  margin-top: -0.3rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p{
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+}
+.th{
+  padding-right: 10px;
+}
+.tr{
+  margin: 10px;
+  border-bottom: 0.0001px solid rgb(127, 0, 0);
+  background-clip: padding-box;
+}
+.td{
+  align-items: center;
+  text-align: center;
+}
+
+.subtotal{
+  margin-top: 0.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.trackorder{
+  font-weight: 400;
+  border-radius: 5px;
+  background-color:rgb(243, 199, 145);
+  padding: 4px 6px;
+}
+.trackorder:hover{
+  background-color: rgb(219, 142, 26);
+}

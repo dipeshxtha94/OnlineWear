@@ -1,0 +1,112 @@
+.container{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 6rem auto auto auto;
+  text-align: center;
+  width: 60rem;
+}
+.h1detail{
+  font-family: auto;
+  font-size: 5rem;
+  text-decoration: underline;
+  font-weight: 500;
+}
+.h3{
+  font-size: 1.7rem;
+  text-align: start;
+  margin-left: 15rem;
+  font-family: emoji;
+}
+
+
+
+.form{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 32rem;
+  margin: auto;
+  background-color: rgb(202, 196, 197);
+  border-radius: 19px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4rem;
+  font-weight: 450;
+}
+.firstnamelabel{
+  font-family: cursive;
+  font-size: 2rem;
+}
+.firstname{
+  margin: 0.2rem auto 0.3rem auto;
+  text-align: center;
+  width:25rem;
+  border-radius: 4px;
+}
+.lastnamelabel{
+  font-family: cursive;
+  font-size: 2rem;
+}
+.lastname{
+  margin: 0.2rem auto 0.3rem auto;
+  text-align: center;
+  width:25rem;
+  border-radius: 4px;
+}
+.emaillabel{
+  font-family: cursive;
+  font-size: 2rem;
+  margin-top:-1rem;
+}
+.email{
+  margin: 0.2rem auto 0.3rem auto;
+  text-align: center;
+  width:25rem;
+  border-radius: 4px;
+}
+.passwordlabel{
+  font-family: cursive;
+  font-size: 2rem;
+}
+.password{
+  margin: 0.2rem auto 0.3rem auto;
+  text-align: center;
+  width:25rem;
+  border-radius: 4px;
+}
+
+.submit{
+  width: 20rem;
+  margin: 0 auto 0.6rem auto;
+  border: 0px solid black;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.submit:hover{
+  color: black;
+  background-color: rgb(245, 48, 48);
+}
+
+.p{
+  cursor: pointer;
+  font-weight: 500;
+}
+.p:hover{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:1060){
+  .container{
+    width: 30rem;
+  }
+}

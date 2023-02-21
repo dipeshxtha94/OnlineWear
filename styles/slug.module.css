@@ -1,0 +1,114 @@
+.container{
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.h3{
+  margin-top: 1.9rem;
+  font-size: 1rem;
+}
+
+.h1{
+  margin-top: -8px;
+  font-size: 2rem;
+}
+.checked{
+  color: orange;
+  margin-top: 4px;
+}
+.review{
+  display: flex;
+  flex-direction: row;
+}
+.star{
+  margin-top: 4px;
+}
+.span{
+  margin-left: 10px;
+}
+.color{
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.red{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.white{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.blue{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.green{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.black{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.size{
+  margin-left: 0.5rem;
+}
+.sizebox{
+  margin-left: 2px;
+  border: 0.1px solid black;
+  border-radius: 2px; 
+}
+.buynow{
+  margin: 4px 0.8rem 0.9rem 0;
+  border:1px solid black;
+  border-radius: 4px;
+  padding: 1px 2px;
+  background-color: rgb(216, 207, 207);
+}
+.buynow:hover{
+  background-color: rgb(243, 18, 18);
+  color: white;
+}
+.addtocart{
+  margin: 4px 0 0.9rem 0;
+  border:1px solid black;
+  border-radius: 4px;
+  padding: 1px 2px;
+  background-color: rgb(216, 207, 207);
+}
+.addtocart:hover{
+  background-color: rgb(43, 14, 14);
+  color: white;
+}
+.input{
+  border: 0.001px solid black;
+  border-radius: 3px;
+}
+.check{
+  border:1px solid black;
+  border-radius: 4px;
+  margin: 0 0 0 4px;
+  padding: 0.5px;
+  background-color: rgb(216, 207, 207);
+}
+.check:hover{
+  background-color: rgb(43, 14, 14);
+  color: white;
+}

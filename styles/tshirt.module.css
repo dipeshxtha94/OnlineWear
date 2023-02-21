@@ -1,0 +1,114 @@
+
+
+.container{
+  width: 65rem;
+  margin: 8rem auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.items{
+  width: 16rem;
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 0 1px rgb(80, 73, 73);
+}
+.img{
+  margin: auto;
+}
+
+.desc{
+  margin: 0 3rem;
+}
+
+.h2{
+  font-size: large;
+  font-weight: 500;
+}
+
+.h3{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.h4{
+  display: flex;
+  font-size: 14px;
+  font-weight: 350;
+}
+
+.sizeitem{
+  margin: 2px 4px;
+  border: 1px solid grey;
+  padding: 1px 2px;
+}
+.red{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.white{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.blue{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.green{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.black{
+  margin: 0 4px 5px 0;
+  padding: 0.5rem;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 800px){
+  .container{
+    margin: 2rem -1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+  
+  }
+  
+  .items{
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .desc{
+    margin: 0 3rem;
+  }
+  
+  .h2{
+    font-size: large;
+    font-weight: 500;
+  }
+  
+  .h3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .h4{
+    font-size: 14px;
+    font-weight: 350;
+  }
+}
